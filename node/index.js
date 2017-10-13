@@ -88,7 +88,7 @@ app.get('/auth/twitch/callback', passport.authenticate('twitch', { successRedire
 
 // Define a simple template to safely generate HTML with values from user's profile
 var template = handlebars.compile(`
-<html><head><title>Twitch Auth Sample</title></head>
+<html><head><title>My First Twitch App</title></head>
 <table>
     <tr><th>Access Token</th><td>{{accessToken}}</td></tr>
     <tr><th>Refresh Token</th><td>{{refreshToken}}</td></tr>
