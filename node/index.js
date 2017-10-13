@@ -106,6 +106,6 @@ app.get('/', function (req, res) {
   }
 });
 
-app.listen(3000, function () {
+app.listen(1080, function () {
   console.log('Twitch auth sample listening on port 3000!')
 });
